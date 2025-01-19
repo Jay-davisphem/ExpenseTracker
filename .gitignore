@@ -1,0 +1,56 @@
+# Ignore build artifacts
+/build/
+/*.o
+/*.obj
+/*.exe
+/*.out
+/*.a
+/*.lib
+/*.so
+/*.dll
+/*.dSYM
+/*.class
+
+# CMake files
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/install_manifest.txt
+
+# VSCode-specific files
+/.vscode/
+/.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.~lock.*
+
+# Miscellaneous
+.idea/
+*.user
+*.layout
+*.depend
+*.patch
+*.orig
+
+# Generated documentation
+/docs/*.html
+/docs/*.xml
+/docs/*.pdf
+
+# Unit test artifacts
+/tests/*.out
+/tests/*.log
+/tests/*.dat
