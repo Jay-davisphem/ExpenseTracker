@@ -12,7 +12,7 @@ if (MSVC)
 endif()
 
 # Include Conan-generated files
-include(${CMAKE_BINARY_DIR}/generators/conan_toolchain.cmake)
+include(${CMAKE_BINARY_DIR}/Debug/generators/conan_toolchain.cmake)
 
 
 # Add the directory containing FemiMacros.cmake to the module path

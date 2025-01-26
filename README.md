@@ -6,14 +6,12 @@ This is a C++ project following an industry-standard structure. Build using CMak
 
 ### Build
 ```bash
-mkdir build && cd build
-cmake ..
-make
+./commands.sh
 ```
 
 ### Run
 ```bash
-./ExpenseTracker
+./build/Linux64/Debug/ExpenseTracker
 ```
 
 ### Run Tests

@@ -26,10 +26,10 @@ conan install . --build=missing -s build_type=$TYPE
 cmake -S . -B build -DCMAKE_BUILD_TYPE=$TYPE
 
 # Build the project
-cmake --build build --config $TYPE --target Main -j 6
+cmake --build build --config $TYPE --target ExpenseTracker -j 6
 
 # Run the executable
-EXECUTABLE_PATH="build/$PLATFORM/$TYPE/Main$EXECUTABLE_EXT"
+EXECUTABLE_PATH="build/$PLATFORM/$TYPE/ExpenseTracker$EXECUTABLE_EXT"
 if [ -f "$EXECUTABLE_PATH" ]; then
     echo "Running $EXECUTABLE_PATH"
     if [[ "$OS" == "MINGW"* || "$OS" == "MSYS"* || "$OS" == "CYGWIN"* ]]; then
